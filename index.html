@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Pinturas de Picasso</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="lorem-ipsum.css" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+  <main>
+    <section class="section-center1">
+      <h2>¿Te gusta Picasso?</h2>
+      <h4>Ingresa la cantidad de pinturas a ver</h4>
+      <form class="lorem-form">        
+        <label for="amount">pinturas:</label>
+        <input type="number" name="amount" id="amount" placeholder="" />
+        <button type="submit" class="btn">clickea!!</button>
+      </form>
+      <h4 id="try"></h4>
+    </section>
+
+    <section class="obras lorem-form1">
+      <!-- title -->
+      <div class="title">
+        <h3>Algunas de sus Pinturas más Famosas</h3>
+        <div class="underline"></div>
+          <a href="./img/picasso1.jpg"></a>
+      </div>
+
+      <div class="lorem-text section-center">
+        <article class="section-center obras-item">
+          <img src="./img/picasso1.jpg" alt="item" class="photo" />
+          <div class="item-info">
+            <header>
+              <h4>Portrait of Dora Maar</h4>
+              <h4 class="pintor">Pablo Picasso</h4>
+            </header>
+            <p class="item-text">
+              Nació el 25-10-1881 en Malaga, España, murió el 08-04-1973 en Mougins,
+               Francia. Movimiento: cubismo, posimpresionismo, neoclasicismo, 
+               surrealismo
+            </p>			
+  		     </div>
+		    </article>		
+	    </div>
+
+    </section> 
+
+  </main>
+
+    <script src="pinturas.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
